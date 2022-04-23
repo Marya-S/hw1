@@ -53,5 +53,31 @@ public class Main {
 		System.out.println("Денис теперь получает " + newSalaryDenis +" рублей. Годовой доход вырос на " + (newSalaryDenis*12 - currentSalaryDenis*12)  + " рублей");
 		System.out.println("Кристина теперь получает " + newSalaryCristina +" рублей. Годовой доход вырос на " + (newSalaryCristina*12 - currentSalaryCristina*12)  + " рублей");
 
+        int a2 = 12;
+        int b2 = 27;
+        int c2 = 44;
+        int d2 = 15;
+        int e2 = 9;
+
+        int result2 = a2 * (b2 + (c2 - d2 * e2));
+        System.out.println("****Задание 6*********");
+        System.out.println("result = " + result2);
+        System.out.println("Инверсия result = " + result2 * (-1));
+
+        int f2 = 5;
+        int g2 = 7;
+        System.out.println("****Задание 7*********");
+        System.out.println("a= " + f2 + " b= " +g2);
+        f2 +=g2;
+        g2 =f2 - g2;
+        f2-=g2;
+        System.out.println("a= " + f2 + " b= " +g2);
+
+        int h2 = 158;
+        System.out.println("****Задание 8*********");
+        System.out.println("a = " + h2);
+        h2 = h2/10;
+        int i2 = h2%10;
+        System.out.println("b = " + i2);
     }
 }
