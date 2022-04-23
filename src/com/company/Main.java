@@ -26,7 +26,7 @@ public class Main {
         int iceCream = 100;
         int egs = 70;
 
-        float result = (float) (banana * 5 + milk * 2 + iceCream * 2 * 100 + egs * 4 * 70) / 1000;
+        float result = (float) (banana * 5 + milk * 2 + iceCream * 2 + egs * 4 * 70) / 1000;
         System.out.println("******Задача № 3 *********");
         System.out.println("Общий вес завтрака: " + result + " кг");
 
